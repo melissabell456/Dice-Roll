@@ -1,0 +1,30 @@
+{
+  "name": "dice-roll",
+  "version": "1.0.0",
+  "description": "Create a program that performs a dice roll. You will need a folder `dice-roll` with at least 5 files to accomplish this task.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/diceroll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissabell456/Dice-Roll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissabell456/Dice-Roll/issues"
+  },
+  "homepage": "https://github.com/melissabell456/Dice-Roll#readme",
+  "dependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "bin": {
+    "diceroll": "./bin/diceroll"
+  }
+}
